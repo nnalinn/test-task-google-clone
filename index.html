@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ua">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <nav class="header__menu">
+          <a class="header__link" href="#">Gmail</a>
+          <a class="header__link" href="#">Зображення</a>
+          <img
+            src="./src/icons/menu.svg"
+            alt="logo-menu"
+            class="header__logo-menu"
+          />
+          <button class="header__button">Увійти</button>
+        </nav>
+      </header>
+      <main>
+        <img
+          src="./src/images/google-logo.png"
+          alt="google-logo"
+          class="main__logo"
+        />
+
+        <div class="main__search-wrapper">
+          <input type="text" class="main__search" placeholder="Пошук" />
+
+          <img
+            src="./src/icons/search.png"
+            alt="search-icon"
+            class="main__icon main__left-icon"
+          />
+
+          <div class="main__right-icons">
+            <img
+              src="./src/icons/keyboard.svg"
+              alt="keyboard"
+              class="main__icon"
+            />
+            <img
+              src="./src/icons/microphone.png"
+              alt="microphone"
+              class="main__icon"
+            />
+            <img src="./src/icons/camera.png" alt="camera" class="main__icon" />
+          </div>
+        </div>
+
+        <div class="main__buttons">
+          <button class="main__button-search">Пошук Google</button>
+          <button class="main__button-luck">Мені пощастить</button>
+        </div>
+
+        <p class="main__language">
+          Мова Google: <a href="#" class="main__language-link">English</a>
+        </p>
+      </main>
+    </div>
+    <footer class="footer">
+      <div class="footer__block-up">
+        <p>Україна</p>
+      </div>
+
+      <div class="footer__block-down">
+        <ul class="footer__block-down-left">
+          <li><a href="#" class="footer__link">Про Google</a></li>
+          <li><a href="#" class="footer__link">Реклама</a></li>
+          <li><a href="#" class="footer__link">Для бізнесу</a></li>
+          <li><a href="#" class="footer__link">Як працює Пошук</a></li>
+        </ul>
+
+        <ul class="footer__block-down-right">
+          <li><a href="#" class="footer__link">Конфіденційність</a></li>
+          <li><a href="#" class="footer__link">Умови</a></li>
+          <li><a href="#" class="footer__link">Налаштування</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
